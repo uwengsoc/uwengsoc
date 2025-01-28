@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "engsoc-next-website",
   "private": true,
   "scripts": {
     "build": "turbo build",
