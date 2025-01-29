@@ -35,7 +35,6 @@ engsoc-next-website/
 ├── packages/
 │ └── shared/ # Shared types, utilities, and configs
 ├── prisma/ # Prisma schema and migrations
-├── .env # Environment variables
 ├── .gitignore
 ├── package.json # Root package.json
 ├── turbo.json # Turborepo configuration
@@ -64,6 +63,3 @@ Before you begin, ensure you have the following installed:
 ## Contributing
 
 ## 
-```bash
-git clone https://github.com/your-username/engsoc-website.git
-cd engsoc-website
