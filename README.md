@@ -28,6 +28,7 @@ This project is a recreation of the [EngSoc University of Waterloo website](http
 ---
 
 ## **Project Structure**
+```
 engsoc-next-website/
 ├── apps/
 │ ├── frontend/ # Next.js app
@@ -39,7 +40,7 @@ engsoc-next-website/
 ├── package.json # Root package.json
 ├── turbo.json # Turborepo configuration
 └── README.md
-
+```
 ---
 
 ## **Prerequisites**
