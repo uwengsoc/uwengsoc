@@ -20,32 +20,32 @@ Modern recreation of the Engineering Society website for University of Waterloo 
 ## Running the Apps and Other Useful Commands
 
 ### Frontend
-npm run dev
+npm run dev  
 
 ### Backend
-npm run start:dev
+npm run start:dev  
 
 ### Running Migrations
-npx prisma migrate dev
+npx prisma migrate dev  
 
 ### Delete and Regenerate DB
-rm apps/backend/dev.db
-cd apps/backend && npx prisma migrate dev
+rm apps/backend/dev.db  
+cd apps/backend && npx prisma migrate dev  
 
 ## Example Project Structure
 
-engsoc-next-website/
-├── apps/
-│   ├── frontend/       # Next.js application
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   ├── components/
-│   │   └── ...
-│   └── backend/        # NestJS application
-│       ├── prisma/
-│       ├── src/
-│       ├── dev.db      # SQLite database file
-│       └── ...
-├── .gitignore
-├── package.json
-└── README.md
+engsoc-next-website/  
+├── apps/  
+│   ├── frontend/       # Next.js application  
+│   │   ├── pages/  
+│   │   ├── styles/  
+│   │   ├── components/  
+│   │   └── ... 
+│   └── backend/        # NestJS application  
+│       ├── prisma/  
+│       ├── src/  
+│       ├── dev.db      # SQLite database file  
+│       └── ...  
+├── .gitignore  
+├── package.json  
+└── README.md  
