@@ -41,11 +41,11 @@ engsoc-next-website/
 │   │   ├── styles/  
 │   │   ├── components/  
 │   │   └── ...  
-│   └── backend/        # NestJS application  
-│        ├── prisma/  
-│        ├── src/  
-│        ├── dev.db      # SQLite database file  
-│        └── ...  
+│   └── backend/        # NestJS application   
+│       ├── prisma/  
+│       ├── src/  
+│       ├── dev.db      # SQLite database file  
+│       └── ...  
 ├── .gitignore  
 ├── package.json  
 └── README.md  
