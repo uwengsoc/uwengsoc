@@ -1,5 +1,5 @@
 # Waterloo Engineering Society Website Replication and Improvement
-Modern recreation of the Engineering Society website for University of Waterloo using a lightweight monorepo architecture.
+Modern recreation of the Engineering Society website
 
 ## Tech Stack
 - **Frontend**: Next.js 14, TypeScript, TailwindCSS
