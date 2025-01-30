@@ -42,10 +42,10 @@ engsoc-next-website/
 │   │   ├── components/  
 │   │   └── ...  
 │   └── backend/        # NestJS application   
-│       ├── prisma/  
-│       ├── src/  
-│       ├── dev.db      # SQLite database file  
-│       └── ...  
+│       &nbsp;├── prisma/  
+│       &nbsp;├── src/  
+│       &nbsp;├── dev.db      # SQLite database file  
+│       &nbsp;└── ...  
 ├── .gitignore  
 ├── package.json  
 └── README.md  
