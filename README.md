@@ -40,7 +40,7 @@ engsoc-next-website/
 │   │   ├── pages/  
 │   │   ├── styles/  
 │   │   ├── components/  
-│   │   └── ... 
+│   │   └── ...  
 │   └── backend/        # NestJS application  
 │       ├── prisma/  
 │       ├── src/  
