@@ -4,30 +4,34 @@
   "private": true,
   "type": "module",
   "license": "AGPL-3.0-only",
+  "prettier": "@repo/config-prettier",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "formatcheck": "prettier --check ."
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.9",
-    "next": "15.2.0",
+    "@tailwindcss/postcss": "^4.0.14",
+    "next": "15.2.2",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.9"
+    "tailwindcss": "^4.0.14"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@repo/config-typescript": "*",
+    "@repo/config-prettier": "*",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
-    "eslint-config-next": "15.2.0",
+    "eslint-config-next": "15.2.2",
     "typescript": "^5"
   }
 }
