@@ -1,0 +1,32 @@
+{
+  "name": "@repo/db",
+  "type": "module",
+  "private": true,
+  "prettier": "@repo/config-prettier",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "prisma": {
+    "schema": "src/schema.prisma"
+  },
+  "scripts": {
+    "setup-ephemeral": "bun run scripts/setup-ephemeral.ts",
+    "build": "prisma generate",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "formatcheck": "prettier . --check",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.3",
+    "zx": "^8.1.4",
+    "eslint": "~9.7.0",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.17.0"
+  }
+}
