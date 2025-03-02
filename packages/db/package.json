@@ -2,6 +2,7 @@
   "name": "@repo/db",
   "type": "module",
   "private": true,
+  "license": "AGPL-3.0-only",
   "prettier": "@repo/config-prettier",
   "exports": {
     ".": "./src/index.ts"
