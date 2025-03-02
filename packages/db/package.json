@@ -20,13 +20,13 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
-    "prisma": "^5.17.0",
-    "typescript": "^5.5.3",
-    "zx": "^8.1.4",
-    "eslint": "~9.7.0",
-    "prettier": "3.3.3"
+    "prisma": "^6.4.1",
+    "typescript": "^5.8.2",
+    "zx": "^8.3.2",
+    "eslint": "~9.21.0",
+    "prettier": "3.5.2"
   },
   "dependencies": {
-    "@prisma/client": "5.17.0"
+    "@prisma/client": "6.4.1"
   }
 }
