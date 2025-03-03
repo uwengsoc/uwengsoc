@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@repo/frontend",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@repo/typescript-config": "*",
+    "@repo/config-typescript": "*",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",

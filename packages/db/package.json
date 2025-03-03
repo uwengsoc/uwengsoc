@@ -19,8 +19,8 @@
     "format": "prettier . --write"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "@repo/config-typescript": "*",
+    "@repo/config-eslint": "*",
     "prisma": "^6.4.1",
     "typescript": "^5.8.2",
     "zx": "^8.3.2",
