@@ -1,19 +1,7 @@
 {
-  "extends": "@repo/config-typescript",
+  "extends": "@repo/config-typescript/nest",
   "compilerOptions": {
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
-    "incremental": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false,
-    "allowImportingTsExtensions": true,
-    "noEmit": true
+    "baseUrl": "./"
   }
 }
