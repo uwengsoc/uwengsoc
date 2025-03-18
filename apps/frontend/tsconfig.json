@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config",
+  "extends": "@repo/config-typescript",
   "compilerOptions": {
     "allowJs": true,
     "noEmit": true,

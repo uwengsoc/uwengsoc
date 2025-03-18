@@ -1,4 +1,4 @@
 {
-  "extends": "@repo/typescript-config",
+  "extends": "@repo/config-typescript",
   "include": ["src/**/*.ts"]
 }
