@@ -1,15 +1,15 @@
-import pluginReactHooks from "eslint-plugin-react-hooks";
-import pluginReact from "eslint-plugin-react";
-import globals from "globals";
-import pluginNext from "@next/eslint-plugin-next";
-import { config as baseConfig } from "./base.js";
+import pluginReact from "eslint-plugin-react"
+import pluginReactHooks from "eslint-plugin-react-hooks"
+import globals from "globals"
+
+import { config as baseConfig } from "./base.js"
 
 /**
- * A custom ESLint configuration for libraries that use Next.js.
+ * A custom ESLint configuration for libraries that use React.
  *
  * @type {import("eslint").Linter.Config}
  * */
-export const nextJsConfig = [
+export const config = [
   ...baseConfig,
   {
     ...pluginReact.configs.flat.recommended,
@@ -17,16 +17,8 @@ export const nextJsConfig = [
       ...pluginReact.configs.flat.recommended.languageOptions,
       globals: {
         ...globals.serviceworker,
+        ...globals.browser,
       },
-    },
-  },
-  {
-    plugins: {
-      "@next/next": pluginNext,
-    },
-    rules: {
-      ...pluginNext.configs.recommended.rules,
-      ...pluginNext.configs["core-web-vitals"].rules,
     },
   },
   {
@@ -41,4 +33,4 @@ export const nextJsConfig = [
       "react/prop-types": "off",
     },
   },
-];
+]
