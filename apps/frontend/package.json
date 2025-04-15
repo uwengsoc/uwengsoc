@@ -1,8 +1,8 @@
 {
   "name": "@repo/frontend",
-  "version": "0.1.0",
-  "private": true,
   "type": "module",
+  "private": true,
+  "version": "0.1.0",
   "license": "AGPL-3.0-only",
   "prettier": "@repo/config-prettier",
   "scripts": {
@@ -15,23 +15,20 @@
     "formatcheck": "prettier --check ."
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.4",
+    "@repo/ui": "*",
+    "lucide-react": "^0.488.0",
     "next": "15.3.0",
-    "postcss": "^8.5.3",
+    "next-themes": "^0.4.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.4"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@repo/config-typescript": "*",
     "@repo/config-prettier": "*",
+    "@repo/config-typescript": "*",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.0",
+    "shadcn": "^2",
     "typescript": "^5"
   }
 }

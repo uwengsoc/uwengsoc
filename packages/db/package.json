@@ -2,7 +2,9 @@
   "name": "@repo/db",
   "type": "module",
   "private": true,
+  "version": "0.0.0",
   "license": "AGPL-3.0-only",
+  "prettier": "@repo/config-prettier",
   "exports": {
     ".": "./src/index.ts"
   },
@@ -10,7 +12,6 @@
     "schema": "src/schema.prisma"
   },
   "scripts": {
-    "setup-ephemeral": "bun run scripts/setup-ephemeral.ts",
     "build": "prisma generate",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",

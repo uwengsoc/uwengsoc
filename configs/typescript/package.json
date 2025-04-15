@@ -7,6 +7,6 @@
     ".": "./base.json",
     "./next": "./next.json",
     "./nest": "./nest.json",
-    "./react": "./react.json"
+    "./react-internal": "./react-internal.json"
   }
 }

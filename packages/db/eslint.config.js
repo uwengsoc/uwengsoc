@@ -1,3 +1,4 @@
-import { nodeConfig } from "@repo/config-eslint/node";
+import { config } from '@repo/config-eslint/node';
 
-export default [...nodeConfig];
+/** @type {import("eslint").Linter.Config} */
+export default config;
