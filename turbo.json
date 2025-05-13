@@ -20,7 +20,10 @@
     "format": {},
     "formatcheck": {},
     "typecheck": {
-      "dependsOn": ["^typecheck"]
+      "dependsOn": [
+        "build",
+        "^typecheck"
+      ]
     },
     "check": {
       "dependsOn": [

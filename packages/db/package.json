@@ -12,7 +12,7 @@
     "schema": "src/schema.prisma"
   },
   "scripts": {
-    "build": "prisma generate",
+    "build": "prisma generate --no-hints",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "format": "prettier . --write",
