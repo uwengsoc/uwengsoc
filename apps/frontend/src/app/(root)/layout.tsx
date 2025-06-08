@@ -8,7 +8,7 @@ export default function HomeLayout({
 }>) {
   return (
     <>
-      <div className="border-b fixed top-0 left-0 right-0">
+      <div className="border-b top-0 left-0 right-0">
         <div className="flex h-16 items-center px-4">
           <Image
             src="/logo.png"
@@ -45,7 +45,7 @@ export default function HomeLayout({
           <div className="ml-auto flex items-center space-x-4"></div>
         </div>
       </div>
-      <main>{children}</main>
+      <main className="p-8">{children}</main>
     </>
   );
 }

@@ -15,7 +15,11 @@
     "formatcheck": "prettier --check ."
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.3.3",
     "@repo/ui": "workspace:*",
+    "@types/mdx": "^2.0.13",
     "lucide-react": "^0.513.0",
     "next": "15.3.3",
     "next-themes": "^0.4.6",
@@ -23,14 +27,14 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@repo/config-eslint": "workspace:*",
     "@repo/config-prettier": "workspace:*",
     "@repo/config-typescript": "workspace:*",
-    "@repo/config-eslint": "workspace:*",
     "@types/node": "^22.15.30",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.6",
-    "shadcn": "^2.6.0",
     "prettier": "3.5.3",
+    "shadcn": "^2.6.0",
     "typescript": "^5.8.3"
   }
 }
