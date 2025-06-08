@@ -21,7 +21,7 @@ if (!fs.existsSync('./packages/db/src/dev.db')) {
 }
 
 await $$`husky`;
-await $$`npm run build`;
+await $$`pnpm run build`;
 
 if (modifiedProject) {
   console.log('Done setting up project.');
