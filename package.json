@@ -1,5 +1,5 @@
 {
-  "name": "engsoc-next-website",
+  "name": "@repo/uwengsoc",
   "private": true,
   "version": "0.0.0",
   "license": "AGPL-3.0-only",
@@ -16,16 +16,11 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "turbo": "^2.5.3",
-    "zx": "^8.5.4"
+    "turbo": "^2.5.4",
+    "zx": "^8.5.5"
   },
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@11.3.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*",
-    "configs/*"
-  ]
+  "packageManager": "pnpm@10.11.1"
 }
